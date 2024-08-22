@@ -1,0 +1,38 @@
+# EditorConfig é uma configuração para manter estilo de codificação consistente entre diferentes editores
+# Mais informações: https://editorconfig.org
+
+root = true
+
+[*]
+# Define codificação como UTF-8
+charset = utf-8
+
+# Define o final de linha como LF
+end_of_line = lf
+
+# Define tabulação com espaços
+indent_style = space
+
+# Define tamanho da indentação como 2 espaços
+indent_size = 2
+
+# Remove espaços em branco no final de cada linha
+trim_trailing_whitespace = true
+
+# Insere uma linha em branco no final de cada arquivo
+insert_final_newline = true
+
+[*.md]
+# Define largura máxima de linha para arquivos Markdown
+max_line_length = off
+
+# Mantenha a indentação como espaços para Markdown
+indent_style = space
+
+[*.json]
+# Define tamanho da indentação como 2 espaços para arquivos JSON
+indent_size = 2
+
+[*.{js,jsx,ts,tsx}]
+# Define tamanho da indentação como 2 espaços para arquivos JS/TS
+indent_size = 2
